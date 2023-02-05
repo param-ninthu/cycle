@@ -19,6 +19,7 @@ import HooksuseState from "./hooks_useState.jsx";
 import HooksuseEffect from "./hooks-useEffect.jsx";
 import HookuseCallback from "./hooks_useCallback.jsx";
 import HooksuseReducer from "./hooks_useReducer.jsx";
+import Useatom from "./jotai_stateManagement.jsx";
 
 export default class Home extends Component {
   constructor(props) {
@@ -144,7 +145,10 @@ export default class Home extends Component {
               <HooksuseReducer />
             </DemoContainer>
 
-            <TheEndButton> The End </TheEndButton>
+            <TheEndButton> To be Continued </TheEndButton>
+            <DemoContainer>
+              <Useatom />
+            </DemoContainer>
           </HomeScreenBody>
         </HomeScreenContainer>
       </>

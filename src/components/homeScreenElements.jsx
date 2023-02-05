@@ -112,7 +112,7 @@ export const TheEndButton = styled.button`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 10%;
+  width: auto;
   height: 50px;
   background-color: #070707;
   border: 3px solid #61dbfb;
