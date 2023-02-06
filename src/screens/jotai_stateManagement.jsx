@@ -8,6 +8,8 @@ import {
 import { Button } from "react-bootstrap";
 
 const Useatom = () => {
+  const [blast, setBlast] = useAtom("");
+
   return (
     <>
       <JotaiContainer>
@@ -16,6 +18,7 @@ const Useatom = () => {
           <input
             type="text"
             placeholder="Check Atom !"
+            onChange={(e) => setBlast(e.target.value)}
             style={{
               width: "50%",
               height: "45px",
@@ -27,6 +30,7 @@ const Useatom = () => {
             {" "}
             Blast{" "}
           </Button>
+          <h1 style={{ color: "white" }}>{blast}</h1>
         </JotaiBody>
       </JotaiContainer>
     </>

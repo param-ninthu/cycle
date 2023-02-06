@@ -6760,6 +6760,11 @@ joi@^11.1.1:
     isemail "3.x.x"
     topo "2.x.x"
 
+jotai-form@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/jotai-form/-/jotai-form-0.1.0.tgz#1fea5b52bcbb33111adcb4cba0b82de65deb77bf"
+  integrity sha512-LMWm34rj1woGoeZg4gpOVzh3/cIJexTNHPQDwOPXwZt07Cq8iboiAPBy+s3rdG4UZe76M+msjtACSQbw0aQo7Q==
+
 jotai@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/jotai/-/jotai-2.0.0.tgz#3938ad0166130417811bb57ec2de8abeb24bd948"
